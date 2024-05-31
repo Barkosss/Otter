@@ -2,56 +2,54 @@
 The fan repository where the Otter class was created
 
 
-Класс Otter на C++ может быть использован для моделирования различных аспектов поведения выдр, например:
+### Attributes:
+- `name` is the name of the otter.
+- `age` - the age of the otter.
+- `weight` - the weight of the otter.
+- `gender` is the gender of the otter.
+- `habitat` - the habitat of the otter.
 
-### Атрибуты:
-- name - имя выдры.
-- age - возраст выдры.
-- weight - вес выдры.
-- gender - пол выдры.
-- habitat - среда обитания выдры.
+### Behavior:
+- `sleep()` is a method for sleeping.
+- `swim()` is a method for swimming.
+- `hunt()` is a method for hunting.
+- `play()` is the method for the game.
 
-### Поведение:
-- sleep() - метод для сна.
-- swim() - метод для плавания.
-- hunt() - метод для охоты.
-- play() - метод для игры.
+### Behavior status:
+- `0` - Otter is sleeping
+- `1` - Otter is swimming
+- `2` - Otter is hunting
+- `3` - Otter is playing
 
-### Статус поведения:
-- 0 - Выдра спит
-- 1 - Выдра плавает
-- 2 - Выдра охотится
-- 3 - Выдра играет
+### Features:
+- `intelligence` - the otter's intelligence level.
+- `agility` - the agility of an otter.
+- `strength` - the strength of the otter.
+- `health` - otter's health.
 
-### Характеристики:
-- intelligence - уровень интеллекта выдры.
-- agility - ловкость выдры.
-- strength - сила выдры.
-- health - здоровье выдры.
+### Methods: Installation
+- `setAge(int age)` - setting the age of the otter.
+- `setWeight(float weight)` - setting the weight of the otter.
+- `setGender(char gender)` - setting the otter's floor.
+- `setHabitat(string habitat)` - setting the otter habitat.
+- `setIntelligence(unsigned int intelligence)` - setting the otter's intelligence level.
+- `setAgility(unsigned int agility)` - setting the otter's agility level.
+- `setStrength(unsigned int strength)` - setting the otter's strength level.
+- `setHealth(unsigned int health)` - setting the otter's health level.
 
-### Методы: Установка
-- setAge(`int age`) - установка возраста выдры.
-- setWeight(`float weight`) - установка веса выдры.
-- setGender(`char gender`) - установка пола выдры.
-- setHabitat(`string habitat`) - установка среды обитания выдры.
-- setIntelligence(`unsigned int intelligence`) - установка уровня интеллекта выдры.
-- setAgility(`unsigned int agility`) - установка уровня ловкости выдры.
-- setStrength(`unsigned int strength`) - установка уровня силы выдры.
-- setHealth(`unsigned int health`) - установка уровня здоровья выдры.
-
-### Методы: Получение
-- getAge() - получение возраста выдры.
-- getWeight() - получение веса выдры.
-- getGender() - получение пола выдры.
-- getHabitat() - получение среды обитания выдры.
-- getIntelligence() - получение уровня интеллекта выдры.
-- getAgility() - получение уровня ловкости выдры.
-- getStrength() - получение уровня силы выдры.
-- getHealth() - получение уровня здоровья выдры.
+### Methods: Getting
+- `getAge()` - getting the age of the otter.
+- `getWeight()` - getting the weight of the otter.
+- `getGender()` - getting the otter's gender.
+- `getHabitat()` - obtaining an otter habitat.
+- `getIntelligence()` - getting the otter's intelligence level.
+- `getAgility()` - getting the otter's dexterity level.
+- `getStrength()` - getting the otter's strength level.
+- `getHealth()` - getting the otter's health level.
 
 
-### Конструкторы:
-- Реализован конструктор по умолчанию.
+### Constructors:
+- The default constructor is implemented.
 
-### Деструктор:
-- Деструктор для освобождения ресурсов.
+### Destructor:
+- A destructor to free up resources.
