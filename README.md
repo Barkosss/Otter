@@ -10,10 +10,10 @@ The fan repository where the Otter class was created
 - `habitat` - the habitat of the otter.
 
 ### Behavior:
-- `sleep()` is a method for sleeping.
-- `swim()` is a method for swimming.
-- `hunt()` is a method for hunting.
-- `play()` is the method for the game.
+- `sleep() --> bool` is a method for sleeping.
+- `swim() --> bool` is a method for swimming.
+- `hunt() --> bool` is a method for hunting.
+- `play() --> bool` is the method for the game.
 
 ### Behavior status:
 - `0` - Otter is sleeping
@@ -28,24 +28,26 @@ The fan repository where the Otter class was created
 - `health` - otter's health.
 
 ### Methods: Installation
-- `setAge(int age)` - setting the age of the otter.
-- `setWeight(float weight)` - setting the weight of the otter.
-- `setGender(char gender)` - setting the otter's floor.
-- `setHabitat(string habitat)` - setting the otter habitat.
-- `setIntelligence(unsigned int intelligence)` - setting the otter's intelligence level.
-- `setAgility(unsigned int agility)` - setting the otter's agility level.
-- `setStrength(unsigned int strength)` - setting the otter's strength level.
-- `setHealth(unsigned int health)` - setting the otter's health level.
+- `setAge(int age) --> void` - setting the age of the otter.
+- `setWeight(float weight) --> void` - setting the weight of the otter.
+- `setGender(char gender) --> void` - setting the otter's floor.
+- `setHabitat(string habitat) --> void` - setting the otter habitat.
+- `setIntelligence(unsigned int intelligence) --> void` - setting the otter's intelligence level.
+- `setAgility(unsigned int agility) --> void` - setting the otter's agility level.
+- `setStrength(unsigned int strength) --> void` - setting the otter's strength level.
+- `setHealth(unsigned int health) --> void` - setting the otter's health level.
 
 ### Methods: Getting
-- `getAge()` - getting the age of the otter.
-- `getWeight()` - getting the weight of the otter.
-- `getGender()` - getting the otter's gender.
-- `getHabitat()` - obtaining an otter habitat.
-- `getIntelligence()` - getting the otter's intelligence level.
-- `getAgility()` - getting the otter's dexterity level.
-- `getStrength()` - getting the otter's strength level.
-- `getHealth()` - getting the otter's health level.
+- `getName() --> string` - getting the name of the ooter.
+- `getAge() --> int` - getting the age of the otter.
+- `getWeight() --> float` - getting the weight of the otter.
+- `getGender() --> char` - getting the otter's gender.
+- `getHabitat() --> string` - getting an otter habitat.
+- `getIntelligence() --> unsigned int` - getting the otter's intelligence level.
+- `getAgility() --> unsigned int` - getting the otter's dexterity level.
+- `getStrength() --> unsigned int` - getting the otter's strength level.
+- `getHealth() --> unsigned int` - getting the otter's health level.
+- `getStatus() --> unsigned int` - Getting the Otter action status
 
 
 ### Constructors:
