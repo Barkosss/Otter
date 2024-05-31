@@ -1,4 +1,4 @@
-# Otter
+# Class Otter
 The fan repository where the Otter class was created
 
 
@@ -8,6 +8,12 @@ The fan repository where the Otter class was created
 - `weight` - the weight of the otter.
 - `gender` is the gender of the otter.
 - `habitat` - the habitat of the otter.
+
+### Features:
+- `intelligence` - the otter's intelligence level.
+- `agility` - the agility of an otter.
+- `strength` - the strength of the otter.
+- `health` - otter's health.
 
 ### Behavior:
 - `sleep() --> bool` is a method for sleeping.
@@ -20,12 +26,6 @@ The fan repository where the Otter class was created
 - `1` - Otter is swimming
 - `2` - Otter is hunting
 - `3` - Otter is playing
-
-### Features:
-- `intelligence` - the otter's intelligence level.
-- `agility` - the agility of an otter.
-- `strength` - the strength of the otter.
-- `health` - otter's health.
 
 ### Methods: Installation
 - `setAge(int age) --> void` - setting the age of the otter.
