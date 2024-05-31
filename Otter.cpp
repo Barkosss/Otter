@@ -1,5 +1,5 @@
 #include "Otter.h"
-
+#include<iostream>
 
 // ...
 Otter::Otter() {
@@ -22,7 +22,13 @@ Otter::Otter(Otter& otter) {
 
 // ...
 Otter::~Otter() {
+    std::string otterName = name;
+    
     // ...
+    // ...
+    // ...
+
+    std::cout << "Otter \"" << name << "\" deleted" << std::endl;
 }
 
 // ...
