@@ -23,7 +23,8 @@ The fan repository where the Otter class was created
 - strength - сила выдры.
 - health - здоровье выдры.
 
-### МетодыsetAge(int age) - установка возраста выдры.
+### Методы
+- setAge(int age) - установка возраста выдры.
 - setWeight(float weight) - установка веса выдры.
 - setGender(char gender) - установка пола выдры.
 - setHabitat(string habitat) - установка среды обитания выдры.
